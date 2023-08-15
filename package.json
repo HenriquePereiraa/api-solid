@@ -1,0 +1,25 @@
+{
+  "name": "projeto-03",
+  "version": "1.0.0",
+  "description": "GymPass Style App.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "20.5.0",
+    "tsup": "7.2.0",
+    "tsx": "3.12.7",
+    "typescript": "5.1.6"
+  },
+  "dependencies": {
+    "dotenv": "16.3.1",
+    "fastify": "4.21.0",
+    "zod": "3.22.0"
+  }
+}
