@@ -26,7 +26,7 @@ describe("Profile (e2e)", async () => {
     const { token } = authResponse.body;
 
     const profileResponse = await request(app.server)
-      .post("/me")
+      .get("/me")
       .set("Authorization", `Bearer ${token}`)
       .send();
 
