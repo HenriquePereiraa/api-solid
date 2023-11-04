@@ -36,5 +36,5 @@ describe("Profile (e2e)", async () => {
         email: "johndoe@example.com",
       })
     );
-  });
+  }); 
 });
